@@ -1,0 +1,35 @@
+
+
+.section-title{
+    font-size: 150%;
+    margin-bottom: 2%;
+    color: rgb(18, 18, 18);
+}
+
+.card-now{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10%;
+    padding: 20px;
+}
+
+/*  */
+.card-image{
+    width: 100%;
+}
+
+.card-row h3{
+    margin-bottom: 2%;
+    color: blue;
+
+}
+
+.card-meta{
+    font-size: 20px;
+    text-align: center;
+}
+
+h3{
+    padding-top: 10px;
+    text-align: center;
+}
