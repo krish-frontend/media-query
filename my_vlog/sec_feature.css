@@ -2,6 +2,8 @@
 .fea{
     background: #3F5EFB;
     background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    margin-top: 40px;
+    border-radius: 20px;
     
 }
 
@@ -10,8 +12,15 @@
     padding: 10px 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:200%;    
-    color: rgb(230, 224, 224);
-    
+    /* color: rgb(230, 224, 224); */
+    border: 2px double black;
+    border-radius: 16px;
+    background-color: rgb(207, 206, 206);
+    }
+
+.card{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 16%;
 }
 
 .card-now{
@@ -19,11 +28,13 @@
     grid-template-columns: repeat(3,1fr);
     gap: 10%;
     padding: 20px;
+    
 }
 
 /*  */
 .card-image{
     width: 100%;
+    border-radius: 16%;
 }
 
 .card-row h3{

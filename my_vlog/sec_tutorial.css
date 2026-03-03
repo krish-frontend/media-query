@@ -1,4 +1,14 @@
 
-.section{
-    background-image: linear-gradient( 135deg, #E2B0FF 10%, #9F44D3 100%);;
+.section-light{
+    background-image: linear-gradient( 135deg, #F0FF00 10%, #58CFFB 100%);
+    margin-top: 20px;
+    /* text-emphasis-color: ; */
+    text-align: center;
+
+}
+
+.sec-title{
+    color: black;
+    text-align: center;
+    padding: 10px 0px;
 }

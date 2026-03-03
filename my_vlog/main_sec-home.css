@@ -14,7 +14,7 @@
 .cont{
     /* display: grid; */
     position: relative;
-    height: 50vh;
+    height: 60vh;
     border-radius: 16px;
     background-color: rgb(56, 77, 116)
     /* color: balck;
@@ -39,6 +39,7 @@ margin: 0% 50% 0% 2%;
 .home-text p{
  margin-bottom: 2%;
  color: antiquewhite;
+ padding-top: 6%;
  
 }
 
@@ -59,7 +60,7 @@ border-radius: 10px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     /* padding: 10px; */
-    height: 50vh;
+    height: 60vh;
     border-left: ridge;
     
 }
