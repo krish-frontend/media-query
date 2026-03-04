@@ -1,24 +1,45 @@
 
 .section-light{
     background-image: linear-gradient( 135deg, #F0FF00 10%, #58CFFB 100%);
-    margin-top: 20px;
+    margin-top: 40px;
     /* text-emphasis-color: ; */
     text-align: center;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-rows: 0px 100px 100px;
+    border-radius: 20px;
+    height: 65vh;
+    
 
 }
 
-.sec-title{
-    color: black;
-    text-align: center;
-    padding: 10px 0px;
-}
 
 .tut_card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-columns: 300px 600px 200px;    */
+    gap: 10%;
+    padding: 0px 10px;
+    margin-top: 40px;
     
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-evenly; */
+    
+}
+
+.rnd{
+    border-radius: 20px;
+    height: 90%;
+    width: 100%;
+}
+
+
+button{
+    margin-top: 10px;
+    height: 30px;
+    width:80px ;
+    border-radius: 20px;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    
+}
+
+button:hover{
+    transform: translateY(-10px);
+    background-color: lightsalmon;
 }
